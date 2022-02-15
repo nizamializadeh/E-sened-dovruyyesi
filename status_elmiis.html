@@ -1,0 +1,255 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    
+<!-- Mirrored from mannatthemes.com/dastone/default/apps-email-inbox.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 08 Nov 2021 19:19:50 GMT -->
+<head>
+        <meta charset="utf-8" />
+        <title>Dastone - Admin & Dashboard Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+        <meta content="" name="author" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <link href="../plugins/summernote/summernote-bs4.min.css" rel="stylesheet" />
+
+        <!-- App css -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/metisMenu.min.css" rel="stylesheet" type="text/css" />
+        <link href="../plugins/daterangepicker/daterangepicker.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <body class="enlarge-menu">
+        <div class="page-wrapper">
+            <!-- Page Content-->
+            <div class="page-content">
+                <div class="container-fluid">
+                    <!-- Page-Title -->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="page-title-box">
+                                <div class="row">
+                                    <div class="col">
+                                        <h4 class="page-title"> Elektron Sənəd dövrüyəsi</h4>
+                                    </div><!--end col-->
+                                    <div class="col-auto align-self-center">
+                                        <a href="#" class="btn btn-sm btn-outline-primary" id="Dash_Date">
+                                            <span class="day-name" id="Day_Name">Today:</span>&nbsp;
+                                            <span class="" id="Select_date">Nov 11</span>
+                                            <i data-feather="calendar" class="align-self-center icon-xs ms-1"></i>
+                                        </a>
+                                        <a href="#" class="btn btn-sm btn-outline-primary">
+                                            <i data-feather="download" class="align-self-center icon-xs"></i>
+                                        </a>
+                                    </div><!--end col-->  
+                                </div><!--end row-->                                                              
+                            </div><!--end page-title-box-->
+                        </div><!--end col-->
+                    </div><!--end row-->
+                    <!-- end page title end breadcrumb -->
+
+                    <div class="row">
+                        <div class="col-12">
+                            <!-- Left sidebar -->
+                            <div class="email-leftbar">
+                                <button type="button" class="btn btn-primary btn-sm w-100 waves-effect waves-light" data-bs-toggle="modal" data-animation="bounce" data-bs-target=".compose-modal">
+                                    <i class="fas fa-feather-alt me-2"></i> Yeni Sənəd Göndər
+                                </button>
+
+                                <div class="card mt-3">
+                                    <div class="card-body">
+                                        <div class="mail-list">
+                                            <a href="apps-email-inbox.html" class="active pt-0"><i class="las la-inbox font-15 me-1"></i>Gəlenlər <span class="ms-1">(5)</span></a>
+                                            <a href="#"><i class="las la-clipboard-check font-15 me-1"></i>Təsdiqlənənlər</a>
+                                            <a href="#"><i class="las la-tag font-15 me-1"></i>Rədd Edilənlər</a>
+                                            <a href="#"><i class="las la-paper-plane font-15 me-1"></i>Göndərdiklərim</a>
+                                              <a href="#"><i class="las la-paper-plane font-15 me-1"></i>Sənəd axtar</a>
+                                        </div>   
+                             
+                                    </div><!-- end card-body -->
+                                </div><!-- end card -->
+                            </div>
+                            <!-- End Left sidebar -->
+
+
+                            <!-- Right Sidebar -->
+                            <div class="email-rightbar">
+                
+
+
+                                <div class="card my-3">
+                             
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Compose Mail</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                       <div class="form-group mb-12">
+                                        <input type="text" class="form-control" placeholder="Peter ,Trip home from 🎉 Colombo has been arranged, then Jenna will come get me from Stockholm. :)" disabled>
+                                    </div>
+                                      
+                                   <label for="">Tarix</label>
+                                      <div class="form-group mb-12">
+                                        <input type="date" class="form-control" placeholder="Deadline">
+                                    </div>
+                                    <div  class="form-group mb-12">
+                                        <select class="form-control" name="" id="">
+                                            <option disabled >Status</option>
+                                            <option value="">Kollegiya</option>
+                                            <option value="">Riyaset</option>
+                                        </select>
+                                    </div>
+    <div class="form-group mb-3">
+                                    <label class="btn btn-soft-info" for="files" class="btn">Sənəd yüklə</label>
+                                    <input id="files" style="visibility:hidden;" type="file">
+                                   </div>
+                                       <div class="form-group mb-3">
+                                    <label class="btn btn-soft-info" for="files" class="btn">Sənəd yüklə</label>
+                                    <input id="files" style="visibility:hidden;" type="file">
+                                   </div>
+                              
+                                 
+                        
+        
+                                    <div class="btn-toolbar form-group mb-0 float-end">
+                               
+                                        <button class="btn btn-soft-primary btn-sm waves-effect waves-light ms-1"><span>Göndər</span> <i class="far fa-paper-plane ms-3"></i></button>
+                                   
+                                    </div><!--end form-group-->
+                                </form><!--end form-->
+                            </div><!--end modal-body-->
+                        </div><!--end modal-content-->
+                              
+                                </div> <!-- panel -->
+  
+                            </div> <!-- end email-rightbar -->
+                        </div><!-- end Col -->
+                    </div><!-- End row -->
+
+                </div><!-- container -->
+
+                <!-- Modal -->
+                <div class="modal fade compose-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Compose Mail</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-group mb-3">
+                                        <input type="email" class="form-control" placeholder="To">
+                                    </div><!--end form-group-->
+                                    <div class="form-group mb-3">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <input type="email" class="form-control" placeholder="Cc">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <input type="email" class="form-control" placeholder="Bcc">
+                                            </div>
+                                        </div>
+                                    </div><!--end form-group-->
+                                    <div class="form-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Subject">
+                                    </div><!--end form-group-->
+                                    <div class="form-group mb-3">
+                                        <div class="summernote">
+                                            <h6>Hello Summernote</h6>
+                                            <ul>
+                                                <li>
+                                                    Select a text to reveal the toolbar.
+                                                </li>
+                                                <li>
+                                                    Edit rich document on-the-fly, so elastic!
+                                                </li>
+                                            </ul>
+                                            <p>
+                                                End of air-mode area
+                                            </p>
+        
+                                        </div>
+                                    </div><!--end form-group-->
+        
+                                    <div class="btn-toolbar form-group mb-0 float-end">
+                                        <button type="button" class="btn btn-soft-info btn-sm waves-effect waves-light ms-1"><span>Print</span><i
+                                            class="far fa-save ms-3"></i></button>
+                                        <button class="btn btn-soft-primary btn-sm waves-effect waves-light ms-1"><span>Send</span> <i
+                                            class="far fa-paper-plane ms-3"></i></button>
+                                        <button type="button" class="btn btn-soft-danger btn-sm waves-effect waves-light  ms-1"><span>Delete</span><i
+                                                class="far fa-trash-alt ms-3"></i></button>   
+                                    </div><!--end form-group-->
+                                </form><!--end form-->
+                            </div><!--end modal-body-->
+                        </div><!--end modal-content-->
+                    </div><!--end modal-dialog-->
+                </div><!--end modal-->
+
+                
+
+                <footer class="footer text-center text-sm-start">
+                    &copy; <script>
+                        document.write(new Date().getFullYear())
+                    </script> Dastone <span class="text-muted d-none d-sm-inline-block float-end">Crafted with <i
+                            class="mdi mdi-heart text-danger"></i> by Alizade</span>
+                </footer><!--end footer-->
+            </div>
+            <!-- end page content -->
+        </div>
+        <!-- end page-wrapper -->
+
+        
+
+
+        <!-- jQuery  -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/metismenu.min.js"></script>
+        <script src="assets/js/waves.js"></script>
+        <script src="assets/js/feather.min.js"></script>
+        <script src="assets/js/simplebar.min.js"></script>
+        <script src="assets/js/moment.js"></script>
+        <script src="../plugins/daterangepicker/daterangepicker.js"></script>
+        <script src="https://cdn.ckeditor.com/ckeditor5/30.0.0/classic/ckeditor.js"></script>
+
+<script>
+    ClassicEditor
+        .create( document.querySelector( '#editor' ) )
+        .catch( error => {
+            console.error( error );
+        } );
+</script>
+        <script src="../plugins/summernote/summernote-bs4.min.js"></script>
+        
+        <script>
+            jQuery(document).ready(function(){
+
+                $('.summernote').summernote({
+                    height: 320,                 // set editor height
+                    minHeight: null,             // set minimum height of editor
+                    maxHeight: null,             // set maximum height of editor
+                    focus: false                 // set focus to editable area after initializing summernote
+                });
+            });
+            
+            $('li').click(function () {
+                $('input:not(:checked)').parent().parent().parent().removeClass("unread");
+                $('input:checked').parent().parent().parent().addClass("unread");
+            });
+            $('input:checked').parent().parent().parent().addClass("unread");
+        </script>   
+    </body>
+
+
+<!-- Mirrored from mannatthemes.com/dastone/default/apps-email-inbox.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 08 Nov 2021 19:19:51 GMT -->
+</html>
